@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGT Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="timer-container">
+        <div id="cgt-timer">
+            <span id="time">0:10.00</span>
+            <br>
+            <span id="ttb-time">--:--.--</span>
+        </div>
+        <div id="controls">
+            <button id="start-btn">Start</button>
+            <button id="pause-btn">Pause</button>
+            <button id="reset-btn">Reset</button>
+            <button id="set-ttb-btn">Set Time to Beat</button>
+        </div>
+        <div id="settings">
+            <h3>Settings</h3>
+            <label>Set Start Time:</label>
+            <button id="start-time-up">▲</button>
+            <span id="start-time-display">-0:10.00</span>
+            <button id="start-time-down">▼</button>
+            <br><br>
+            <label>GTC Mode:</label>
+            <input type="checkbox" id="gtc-mode-checkbox">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

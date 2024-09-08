@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+#timer-container {
+    text-align: center;
+}
+
+#cgt-timer {
+    font-size: 72px;
+    color: white;
+    background-color: #7CFC00;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#time {
+    font-size: 72px;
+    color: white;
+}
+
+#ttb-time {
+    font-size: 60px;
+    color: white;
+}
+
+#controls button {
+    font-size: 20px;
+    padding: 12px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#pause-btn {
+    background-color: #ffc107;
+    color: black;
+}
+
+#reset-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#set-ttb-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+#settings {
+    margin-top: 20px;
+    color: white;
+}
+
+#settings label {
+    font-size: 18px;
+}
+
+#settings button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
